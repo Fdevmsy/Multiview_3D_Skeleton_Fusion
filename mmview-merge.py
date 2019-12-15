@@ -199,25 +199,7 @@ class ImageProcessingTools():
 			for frame in range(0, merged.shape[0], 1):
 				self.plot_3d(merged[frame], None)
 			myplt.draw()	
-	
-#	def main(self):
-#		
-#		j3d_1 = np.load('0.npy')
-#		j3d_2 = np.load('1.npy')	
-#		
-#		print(j3d_1.shape)
-##		self.draw_skeleton(j3d_1)
-#		myplt = self.plot_3d(j3d_1[0], None)
-#		myplt.show()
-##		print(j3d_2.shape)
-##		print(j3d_1.shape)	
-##		print(j3d_1.shape)
-#		# shape (2266, 17, 3)	
-##		assert (j3d_1.shape == j3d_2.shape)	
-##		merged = self.confidence_merge(j3d_1, j3d_2)
-##		self.plot_3d(merged, merged)
 
-		
 if __name__ == "__main__":
 	""" Input:
 		 		Paths of 2 j3d npy file, each of them is in shape (N, 17, 3)
