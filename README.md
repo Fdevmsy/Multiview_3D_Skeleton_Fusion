@@ -1,5 +1,9 @@
 ## Multi-View 3D Joints Fusion
 
+### Introduction
+
+Python scripts for multi-view 3D skeletions fusion by heatmap-weighted average. 
+
 ### Requirements
 - Python3
 - matplotlib
