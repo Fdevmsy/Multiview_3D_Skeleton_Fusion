@@ -1,4 +1,4 @@
-## Multi-View 3D Joints Fusion
+## Multi-View 3D Skeleton Fusion
 
 ### Introduction
 
