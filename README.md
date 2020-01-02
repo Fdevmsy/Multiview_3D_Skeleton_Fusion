@@ -2,9 +2,11 @@
 
 ### Introduction
 
-Python scripts for multi-view 3D skeletons fusion by heatmap-weighted average. 
+Python scripts for multi-view 3D skeletons fusion using heatmap-weighted average. 
 
-The 2D heat map for each frame is retrieved from OpenPose/HRnet and is used as confidence for merging corresponding 3D joints from multi-view. 
+The 3D skeletons are obtained from state-of-art single-view 3D human pose estimation network. Single-view methods are usually suffered from occlusion thus results in inaccurate and oscillated outputs. 
+
+To overcome this issue by leveraging multi-view information, we retrieve 2D heat map for each frame from OpenPose/HRnet and use it as confidence for merging corresponding 3D joints from multi-view. 
 
 The oscillation and uncertainty are greatly redeemed by merging multi-view information. 
 
